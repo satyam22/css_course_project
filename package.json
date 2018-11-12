@@ -1,0 +1,22 @@
+{
+  "name": "css_course_project",
+  "version": "1.0.0",
+  "description": "css project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyam22/css_course_project.git"
+  },
+  "author": "satyam bansal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyam22/css_course_project/issues"
+  },
+  "homepage": "https://github.com/satyam22/css_course_project#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
