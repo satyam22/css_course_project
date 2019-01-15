@@ -4,7 +4,7 @@
   "description": "css project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass --watch=force sass/main.scss public/style.css"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/satyam22/css_course_project#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.10.0"
   }
 }
